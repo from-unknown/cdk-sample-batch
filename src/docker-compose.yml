@@ -1,0 +1,9 @@
+version: '3.1'
+services:
+  batch:
+    build:
+      context: ./
+    image: "sample-batch:1.0"
+    command: node /src/bundled.js
+    environment:
+      CURRENT_MODE: "production"

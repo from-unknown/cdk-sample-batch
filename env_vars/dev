@@ -1,0 +1,4 @@
+STAGE=develop
+AWS_ACCOUNT=xxx
+AWS_REGION=ap-northeast-1
+SAMPLE_STRING=xxx
